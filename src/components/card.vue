@@ -4,12 +4,12 @@
     <!-- nft image -->
     <div class="p-4 flex">
       <div class="w-full overflow-hidden relative">
-        <img class="object-cover h-full inset-0 w-full rounded-xl mx-auto" src="../assets/image-equilibrium.jpg">
+        <img class="object-cover h-full inset-0 w-full rounded-xl mx-auto" src="../assets/image-equilibrium.jpg" alt="equilibrium image">
 
         <div class="opacity-0 hover:opacity-100 cursor-pointer transition duration-150">
           <div class="flex justify-center items-center text-white absolute inset-0 bg-cyan opacity-50 rounded-xl"></div>
           <div class="flex justify-center items-center absolute inset-0 tet-white">
-            <img src="../assets/icon-view.svg"/>
+            <img src="../assets/icon-view.svg" alt="view-icon"/>
           </div>
         </div>
 
@@ -25,16 +25,16 @@
       <!-- amount and time  -->
       <div class="flex justify-between text-sm pb-4 border-b border-line">
         <span class="font-bold text-cyan">
-          <img src="../assets/icon-ethereum.svg" class="inline pr-1"> 0.041 ETH
+          <img src="../assets/icon-ethereum.svg" alt="ethereum icon" class="inline pr-1"> 0.041 ETH
         </span>
 
         <span class="text-softBlue">
-          <img src="../assets/icon-clock.svg" class="inline pr-1"> 3 days left
+          <img src="../assets/icon-clock.svg" alt="clock icon" class="inline pr-1"> 3 days left
         </span>
       </div>
 
       <div class="text-softBlue font-light text-sm flex py-4">
-        <img src="../assets/image-avatar.png" class="w-7 border border-white rounded-full mr-4">
+        <img src="../assets/image-avatar.png" alt="avatar" class="w-7 border border-white rounded-full mr-4">
         <p class="mt-1">Creation of <span class="text-white hover:text-cyan cursor-pointer">Jules Wyvern</span></p>
       </div>
     </div>
